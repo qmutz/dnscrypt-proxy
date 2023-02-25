@@ -5,7 +5,6 @@ go 1.12
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/VividCortex/ewma v1.1.1
-	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412
 	github.com/cloudflare/circl v0.0.0-20190703103838-a2a93c3effc8
 	github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a
 	github.com/dchest/safefile v0.0.0-20151022103144-855e8d98f185
@@ -24,11 +23,9 @@ require (
 	github.com/kardianos/service v1.0.0
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/miekg/dns v1.1.15
-	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
-	golang.org/x/net v0.0.0-20190628185345-da137c7871d7
-	golang.org/x/sync v0.0.0-20190423024810-112230192c58 // indirect
-	golang.org/x/sys v0.0.0-20190626221950-04f50cda93cb
-	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/crypto v0.1.0
+	golang.org/x/net v0.1.0
+	golang.org/x/sys v0.1.0
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.2 // indirect
